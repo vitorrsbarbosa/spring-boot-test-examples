@@ -1,6 +1,6 @@
-package unit.payment;
+package com.unit.payment;
 
-import unit.order.Order;
+import com.unit.order.Order;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;

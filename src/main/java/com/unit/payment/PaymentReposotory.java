@@ -1,4 +1,4 @@
-package unit.payment;
+package com.unit.payment;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

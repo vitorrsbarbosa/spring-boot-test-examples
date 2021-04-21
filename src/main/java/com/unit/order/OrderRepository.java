@@ -1,4 +1,4 @@
-package unit.order;
+package com.unit.order;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,8 +1,8 @@
-package unit.order;
+package com.unit.order;
 
-import unit.payment.Payment;
-import unit.payment.PaymentException;
-import unit.payment.PaymentReposotory;
+import com.unit.payment.Payment;
+import com.unit.payment.PaymentException;
+import com.unit.payment.PaymentReposotory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

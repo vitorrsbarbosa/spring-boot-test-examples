@@ -1,10 +1,11 @@
-package unit.order;
+package com.unit.order;
 
-import unit.order.Order;
-import unit.order.OrderRepository;
-import unit.order.OrderService;
-import unit.payment.PaymentException;
-import unit.payment.PaymentReposotory;
+import com.unit.order.Order;
+import com.unit.order.OrderRepository;
+import com.unit.order.OrderService;
+import com.unit.payment.PaymentException;
+import com.unit.payment.PaymentReposotory;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
