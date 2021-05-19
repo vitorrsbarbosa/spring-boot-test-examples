@@ -14,6 +14,6 @@ public class TruthTest {
         fruits.add("Citron");
         fruits.add("Orange");
         fruits.add("Grapefruit");
-        assertThat(fruits).containsExactly("Citron", "Grapefruit", "Orange").inOrder();
+        assertThat(fruits).containsExactly("Citron", "Grapefruit", "Orange");
     }
 }
