@@ -3,7 +3,6 @@ package com.barbosa.receipt.entity;
 import lombok.Data;
 
 import javax.money.MonetaryAmount;
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Data
