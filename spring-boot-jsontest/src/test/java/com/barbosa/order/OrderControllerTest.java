@@ -35,7 +35,9 @@ public class OrderControllerTest {
         mockMvc.perform(get("/order/{id}/receipt", 1L))
                 .andExpect(jsonPath("$.date").isNotEmpty())
                 .andExpect(jsonPath("$.creditCardNumber").isNotEmpty())
-                .andExpect(jsonPath("$.amount").isNotEmpty());
+                .andExpect(jsonPath("$.creditCardNumber").value("4532756279624064"))
+                .andExpect(jsonPath("$.amount").isNotEmpty())
+                .andExpect(jsonPath("$.amount").value("EUR 100,00"));
     }
 
     private void givenOrderIsPaid(Long orderId) {
